@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot1](./screenshot1.jpg)
+![screenshot1](./screenshot.jpg)
 ![screenshot2](./screenshot2.jpg)
 
 ### Built With
