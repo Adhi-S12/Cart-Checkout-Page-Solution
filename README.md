@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://checkoutpage-adhi.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/AdhipathiPandiyan-S/Cart-Checkout-Page-Solution">
       Solution
     </a>
     <span> | </span>
