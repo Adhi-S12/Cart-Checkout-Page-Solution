@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout Page | Devchallenges</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>Checkout</h1>
+      <!-- CONTAINERS -->
+      <div class="containers">
+        <!-- cart container -->
+      <article class="right-container">
+        <!-- cart item 1 -->
+        <div class="cart-item">
+          <div class="cart-item__image"><img src="./photo1.png" alt="cart item 1"></div>
+          <div class="cart-item-details">
+            <h4 class="cart-item-details__title">Vintage Backbag</h4>
+            <div class="cart-item-details__values">
+              <p class="cart-item-details__values_1">$54.99</p>
+              <p class="cart-item-details__values_2">$94.99</p>
+            </div>
+              <div class="cart-item-details__itembox">
+                <span class="material-icons cart-item-details__itembox-icons">
+                  remove_circle_outline
+                </span>
+                <p class="cart-item-details__itembox-middle">1</p>
+                <span class="material-icons cart-item-details__itembox-icons">
+                  add_circle_outline
+                  </span>
+              </div>
+          </div>
+        </div>
+        <!-- cart item 2 -->
+        <div class="cart-item">
+          <div class="cart-item__image"><img src="./photo2.png" alt="cart item 2"></div>
+          <div class="cart-item-details">
+            <h4 class="cart-item-details__title">Levi Shoes</h4>
+            <div class="cart-item-details__values">
+              <p class="cart-item-details__values_1">$74.99</p>
+              <p class="cart-item-details__values_2">$124.99</p>
+            </div>
+              <div class="cart-item-details__itembox">
+                <span class="material-icons cart-item-details__itembox-icons">
+                  remove_circle_outline
+                </span>
+                <p class="cart-item-details__itembox-middle">1</p>
+                <span class="material-icons cart-item-details__itembox-icons">
+                  add_circle_outline
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="cart-final">
+          <p class="cart-final__name">Shipping</p>
+          <p class="cart-final__value">$19</p>
+        </div>
+        <div class="cart-final">
+          <p class="cart-final__name">Total</p>
+          <p class="cart-final__value">$148.98</p>
+        </div>
+      </article>
+      <!-- contact container -->
+      <div class="left-container">
+      <article class="contact-container">
+        <!-- contact block -->
+        <div class="contact-information">
+          <h4 class="contact-heading">Contact information</h4>
+          <!-- Email input item -->
+          <div class="cart-input-item">
+            <p class="cart-input-item__label">E-mail</p>
+            <div class="cart-input-item__inputbox">
+              <span class="material-icons cart-input-item__icon">
+                mail
+              </span> 
+              <p class="cart-input-item__placeholder">Enter your email...</p>
+            </div>
+          </div>
+          <!-- Phone input item -->
+          <div class="cart-input-item">
+            <p class="cart-input-item__label">Phone</p>
+            <div class="cart-input-item__inputbox">
+              <span class="material-icons cart-input-item__icon">
+                phone
+              </span> 
+              <p class="cart-input-item__placeholder">Enter your phone...</p>
+            </div>
+          </div>
+        </div>
+        <!-- shipping block -->
+        </article>
+        <article class="shipping-container">
+          <h4 class="contact-heading">Shipping address</h4>
+        <div class="cart-input-item">
+          <p class="cart-input-item__label">Full Name</p>
+          <div class="cart-input-item__inputbox">
+            <span class="material-icons cart-input-item__icon">
+              account_circle
+            </span> 
+            <p class="cart-input-item__placeholder">Rodney Cotton</p>
+          </div>
+        </div>
+
+        <div class="cart-input-item">
+          <p class="cart-input-item__label">Address</p>
+          <div class="cart-input-item__inputbox">
+            <span class="material-icons cart-input-item__icon">
+              home
+            </span> 
+            <p class="cart-input-item__placeholder">Your address...</p>
+          </div>
+        </div>
+
+        <div class="cart-input-item">
+          <p class="cart-input-item__label">City</p>
+          <div class="cart-input-item__inputbox">
+            <span class="material-icons cart-input-item__icon">
+              location_city
+            </span> 
+            <p class="cart-input-item__placeholder">Your city...</p>
+          </div>
+        </div>
+
+        <div class="country-and-zip">
+          <div class="cart-input-item">
+            <p class="cart-input-item__label">Country</p>
+            <div class="cart-input-item__inputbox">
+              <span class="material-icons cart-input-item__icon">
+                public
+              </span> 
+              <p class="cart-input-item__placeholder">Your country...</p>
+              <span class="material-icons cart-input-item__icon">
+                arrow_drop_down
+              </span> 
+            </div>
+          </div>
+
+          <div class="cart-input-item">
+            <p class="cart-input-item__label">Postal</p>
+            <div class="cart-input-item__inputbox">
+              <span class="material-icons cart-input-item__icon">
+                markunread_mailbox
+              </span> 
+              <p class="cart-input-item__placeholder">Your Postal Code...</p>
+             
+            </div>
+          </div>
+        </div>
+      </article>
+
+        <div class="saveinfo-container">
+          <span class="material-icons saveinfo-icon">
+            check_box_outline_blank
+            </span>
+            <p class="saveinfo-desc">Save this information for next time</p>
+        </div>
+        <button class="continue-btn">Continue</button>
+      </div>
+      </div>
+        <footer>
+          <p>created by <span style="font-weight: 700;">adhi</span> - devChallenges.io</p>
+        </footer>
+    </main>
+  </body>
+</html>
